@@ -18,7 +18,7 @@ try:
 
         final_price = calculate_discount(original_price, discount)
 
-    # c21heck if the discount was applied and print the appropriate message
+    # check if the discount was applied and print the appropriate message
         if final_price == original_price:
             print(f"No discount was applied. The original price is: R{original_price:.2f}")
         else:
